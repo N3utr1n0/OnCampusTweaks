@@ -18,5 +18,11 @@ This script **only** applies to [elderhs.myschoolapp.com](elderhs.myschoolapp.co
 
     
 ### Planned Features:
+- Add options menu
+- Consider converting to chrome extension
 - Option to convert gpa to 5.0 & 4.0 scale
 - Option to weight classes based off of names
+
+### Code Changes:
+- Consider replacing `indexOf(string) > -1` with `.includes(string)`
+- Remove code that hides other headers, or add option to enable it
