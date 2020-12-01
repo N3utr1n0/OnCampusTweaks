@@ -1,6 +1,6 @@
 # OnCampusTweaks
 #### Change the way Elder High School's student website behaves.
-### [Install this script from GreasyFork](https://greasyfork.org/en/scripts/395961-oncampustweaks)
+### [Install this script from GreasyFork](https://greasyfork.org/en/scripts/395961-oncampustweaks) (Note: This is the master branch, not the development branch)
 
 This is a Tampermonkey script that aims to fix some issues I have had with Blackbaud's OnCampus system.
 
@@ -14,6 +14,9 @@ This script **only** applies to [elderhs.myschoolapp.com](elderhs.myschoolapp.co
         - This is just unnecessary information
 - Automatically change to week view
     - This is a personal preference
+- Button calculate unweighted GPA, and highest and lowest grades.
+
     
 ### Planned Features:
-- Add button to calculate weighted & unweighted GPA
+- Option to convert gpa to 5.0 & 4.0 scale
+- Option to weight classes based off of names
