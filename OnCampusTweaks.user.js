@@ -82,7 +82,6 @@ var checkGrades = setInterval(function() {
 }, 500); // check every 500ms
 
 function showGradeAverage(gradesArray) {
-    // Note: This needs to be innerText, not textContent
     if (gradesArray) {
         runOnce(() => {
             // Hide header, for aesthetic reasons
@@ -97,7 +96,6 @@ function showGradeAverage(gradesArray) {
 }
 
 function showMinMax(gradesArray) {
-
     if (gradesArray) {
         for(var i = 0; i < gradesArray.length; i++) {
             gradesArray[i] = parseInt(gradesArray[i]);
