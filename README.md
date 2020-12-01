@@ -26,3 +26,5 @@ This script **only** applies to [elderhs.myschoolapp.com](elderhs.myschoolapp.co
 ### Code Changes:
 - Consider replacing `indexOf(string) > -1` with `.includes(string)`
 - Remove code that hides other headers, or add option to enable it
+- Instead of modifying the GPA div in seperate functions, create one function to set the content, and use the other functions to generate the content.
+    - Consider making GPA div a class with methods?
